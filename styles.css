@@ -1,0 +1,312 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; /*resetto impostazioni browser*/
+}
+.page {
+  display: flex;
+  flex-wrap: wrap;
+}
+/*gestione menu'*/
+.section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}  
+/*gestione menu'*/
+.links{
+  display: flex;
+  justify-content: space-around;
+}
+.menu{
+background-color: #5995DA;
+width: 100%;
+}
+a{
+  text-decoration: none;
+  color:#ffffff;
+}
+.Home,  
+.io,      
+.fare,
+.contatti {
+  margin-right: 20px;
+  font-size: 16px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.Home{
+   color:#4F5459;
+}
+.empty{
+  width: 100%;
+  background-color: #D9AB59;
+  height: 60px;
+  color:#ffffff;
+  text-align: center;
+  margin-top: -5px;
+}
+.empty h1{
+font-size: 34px;
+margin-top: 10px;
+}
+/*gestione features'*/
+.feature-1{
+  background-color: #847862;
+}
+.feature-2 {
+  background-color: #4F5459;
+}
+.feature-3 {
+  background-color: #5995D9;
+} 
+.feature-1{
+  width: 100%;
+text-align: center;}
+
+.feature-3{
+  width: 100%;
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+}
+/*gestione cover*/
+.content{
+  margin-top: -80px;
+.photo{
+  margin-top: 80px;
+  .cover{
+    width: 100%;
+  }
+}
+.photo img {
+  width: 100%; 
+} 
+}
+/*gestione intestazioni, liste e paragrafi*/
+.container{
+display: flex;
+justify-content: flex-start;
+}
+.heading,
+.heading1{
+  margin-top: 20px;
+  margin-left: 30px;
+  margin-right: 30px;
+  font-size: 25px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.container1,
+.container3{
+  margin-left: 30px;
+  margin-right: 25px;
+}
+.container2{
+  margin-right: 30px;
+}
+.container3{
+  margin-top: 18px;
+}
+.paragraph,
+.paragraph1{
+  font-size: 18px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.elenco,
+.list{
+  margin-left: 35px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 18px;
+}                 
+/*gestione footer*/
+.footer {
+  display: flex;
+  justify-content: space-around;
+  background-color:#4F5459;
+  height:130px;
+  width:100%;
+}
+.footer-item {
+  flex: 1;
+}
+.footer-one{
+  flex:initial;
+  font-size: 14px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  margin-top: 24px;
+} 
+.footer-two{
+ display: flex;
+ justify-content: flex-end;
+} 
+.io1,
+.fare1, 
+.contatti1{
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 20px;
+}
+.Home1{
+  color:#D9AB59;
+  margin-top: 20px;
+}
+.footer-three{
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 10px;
+ } 
+ a{text-decoration: none;
+  color:#ffffff; 
+ }
+ .facebook,
+ .instagram,
+ .youtube{
+  margin-left: 8px;
+  margin-right: 10px;
+ }
+ .made{
+  color:#5995D9;
+  margin-top: 55px;
+  margin-left: 10px;
+ }
+ .author{
+  color:#ffffff;
+  width: 10%;
+ }
+
+  /* Tablet Styles */
+  @media (min-width: 501px) and (max-width: 881px) {
+    body {
+      background-color: #ffffff; 
+    }
+/* intestazioni, liste e paragrafi */
+.heading{
+  margin-right: 5px;}
+
+  .container,
+  .container2{
+    margin-top: 30px;
+    margin-left: 30px;
+  }
+  .paragraph,
+.paragraph1{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 20px;
+  margin-left: 30px;
+  margin-right: 100px;
+} 
+.elenco,
+.list{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 20px;
+  margin-left: 56px;
+  margin-right: 90px;
+  line-height: 1.4;
+}
+
+/*menu'*/
+.Home,  
+.io,      
+.fare,
+.contatti {
+  font-size: 17px;
+}
+/*features*/
+    .feature-1,
+    .feature-2{
+      width: 50%;
+      display: flex;
+      justify-content: center;}    
+    .feature-3 {
+      width: 100%;
+      display: flex;
+      background-color:#5995D9;
+      justify-content: center;    }
+    .container3{
+      margin-top: 30px;   }
+}
+
+  /* Desktop Styles */
+  @media (min-width: 881px) {
+      /* menu */
+    .Home,  
+    .io,      
+    .fare,
+    .contatti {
+      font-size: 20px;
+      margin-left: 80px;
+    }
+    .menu{
+      display: flex;
+      justify-content: space-around;
+    }
+    /*intestazioni, liste e paragrafi*/
+    .heading,
+    .heading1{
+      font-size: 46px;
+    }
+    .container,
+    .container1,
+    .container2{
+      margin-left: 40px;
+    }
+    .paragraph,
+    .paragraph1{
+      font-size: 26px;
+      margin-left: 40px;
+      margin-right: 200px;
+    }
+    .elenco,
+    .list{
+      font-size: 26px;
+      margin-left: 85px;
+    }
+    .empty{
+      height: 100px;
+    }
+    .empty h1{
+      font-size: 50px;
+      margin-top: 14px;
+    }
+  }
+    
+    /* Desktop Styles segue */
+@media(min-width: 881px) {
+    .page {
+      width: 100%;
+    }
+       /* features */
+    .feature-1,
+    .feature-2,
+    .feature-4{
+        width: 33.33%;
+        display: flex;
+        justify-content: center;      }
+    .feature-4{
+        background-color: #5995D9;
+        }
+        
+       /* footer */
+    .io1,
+    .fare1, 
+    .contatti1{
+       font-size: 22px;
+       margin-left: 30px;
+    }
+    .Home1{
+      margin-right: 20px;
+      font-size: 22px;
+    }
+    .footer-one{
+      width: 40%;
+    }
+    .author,
+    .made{
+      font-size: 22px;
+      margin-top: 75px;
+    }
+    .footer{
+      width: 100%;
+    }
+}
+
+

@@ -1,0 +1,127 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; /*resetto impostazioni browser*/
+}
+.content{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #657d99dc;
+}
+.container{
+  width: 50%;
+}
+.container1{
+  width: 50%;
+}
+.cont-text{
+  width: 100%;
+}
+.heading{
+  color:#ffffff;
+  font-size: 26px;
+  text-align: center;
+}
+.container2{
+  margin-left: 30px;
+  margin-top: 20px;
+  margin-right: 30px;
+}
+.heading1{
+  text-align: center;
+}
+.paragraph{
+line-height: 1.4;  
+font-size: 18px;
+margin-top: 20px;
+font-weight: normal;
+}
+.list{
+  font-size: 18px;
+  margin-top: 18px;
+  font-weight: normal;
+  margin-left: 20px;  
+}
+.footer {
+  display: flex;
+  justify-content: space-around;
+  background-color:hsl(210, 6%, 33%);
+  height:130px;
+  width:100%;
+  margin-top: 60px;
+}
+.footer-item {
+  flex: 1;
+}
+.footer-one{
+  flex:initial;
+  font-size: 13px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  margin-top: 24px;
+} 
+.footer-two{
+ display: flex;
+ justify-content: space-around;
+ font-size: 14px;
+ font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+ margin-right: 3px;
+} 
+.io1,
+.fare1, 
+.contatti1{
+  margin-top: 20px;
+  margin-right: 10px;
+}
+.Home1{
+  color:#D9AB59;
+  margin-top: 20px;
+  margin-right: 10px;
+}
+.footer-three{
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 10px;
+ } 
+ a{text-decoration: none;
+  color:#ffffff; 
+ }
+ .facebook,
+ .instagram,
+ .youtube{
+  margin-left: 8px;
+  margin-right: 10px;
+ }
+ .made{
+  color:#5995D9;
+  margin-top: 65px;
+  margin-left: 10px;
+ }
+ .author{
+  color:#ffffff;
+ }
+
+  /* Tablet Styles */
+  @media (min-width: 501px) and (max-width: 881px) {
+    .heading{
+    font-size: 30px;
+  }
+  .paragraph,
+  .list{
+    font-size: 20px;
+  }
+  }
+@media (min-width: 881px){
+  .heading{
+    font-size: 34px;
+  }
+  .paragraph,
+  .list{
+    font-size: 24px;
+    margin-right: 120px;
+  }
+  .list{
+    margin-left:40px;
+  }
+}
+
